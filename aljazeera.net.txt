@@ -1,0 +1,9 @@
+prune: no
+title: /html/body/div[1]/div/div[3]/div/div/div/div[1]/main/header/h1
+body: //main[@id='main-content-area']
+test_url: https://www.aljazeera.net/news/politics/2022/6/19/%D9%85%D8%AA%D9%87%$
+
+find_string: id="main-content-area"
+replace_string: id="main-content-area" dir="rtl"
+strip: //div[@class='social-share-buttons']
+strip: //header[@class='article-header']//h1  
